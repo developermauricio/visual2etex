@@ -1,0 +1,230 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+div#tabsHome {
+    margin-top: -4rem;
+}
+#tabsHome .vc_tta-tabs-container {
+    padding: 0 9.6rem;
+}
+#tabsHome ul.vc_tta-tabs-list {
+    background-image: url(/wp-content/uploads/2021/09/banner@2x.png);
+    background-repeat: no-repeat;
+    background-size: 57rem 100%;
+}
+#tabsHome li.vc_tta-tab {
+    padding: 0.3rem 0 0.3rem !important;
+    width: 150px;
+}
+#tabsHome li.vc_tta-tab.vc_active {
+    background-image: url(/wp-content/uploads/2021/09/Trazado-30@2x.png);
+    background-size: 9.5rem 100%;
+    background-repeat: no-repeat;
+}
+
+#tabsHome i.vc_tta-icon.fas.fa-home {
+    background-image: url(/wp-content/uploads/2021/10/icon-residencial-blanco.svg);
+    background-repeat: no-repeat;
+    background-size: 10rem 100%;
+    padding: 1.2rem;
+  	margin-bottom: 5px;
+}
+#tabsHome i.vc_tta-icon.fas.fa-home {
+    background-image: url(/wp-content/uploads/2021/10/icon-residencial-blanco.svg);
+    background-repeat: no-repeat;
+    background-size: 8.5rem 100%;
+    padding: 1.2rem;
+  	margin-bottom: 5px;
+}
+#tabsHome i.vc_tta-icon.fas.fa-clinic-medical {
+    background-image: url(/wp-content/uploads/2021/10/icon-salud-blanco.svg);
+    padding: 1.2rem;
+    background-repeat: no-repeat;
+    background-size: 8.5rem 100%;
+  	margin-bottom: 5px;
+}
+#tabsHome i.vc_tta-icon.fas.fa-graduation-cap {
+    background-image: url(/wp-content/uploads/2021/10/icon-educacion-blanco.svg);
+    padding: 1.2rem;
+    background-repeat: no-repeat;
+    background-size: 8.5rem 100%;
+  	margin-bottom: 5px;
+}
+#tabsHome i.vc_tta-icon.fas.fa-hospital-alt {
+    background-image: url(/wp-content/uploads/2021/10/icon-hoteles-blanco.svg);
+    padding: 1.2rem;
+    background-repeat: no-repeat;
+    background-size: 8.5rem 100%;
+  	margin-bottom: 5px;
+}
+#tabsHome i.vc_tta-icon.far.fa-hospital {
+    background-image: url(/wp-content/uploads/2021/10/icon-oficinas-blanco.svg);
+  	padding: 1.2rem;
+    background-repeat: no-repeat;
+    background-size: 8.5rem 100%;
+  	margin-bottom: 5px;
+}
+#tabsHome i.vc_tta-icon.fas.fa-store {
+    background-image: url(/wp-content/uploads/2021/10/icon-comercio-blanco.svg);
+  	padding: 1.2rem;
+    background-repeat: no-repeat;
+    background-size: 8.5rem 100%;
+  	margin-bottom: 5px;
+}
+
+#tabsHome i.vc_tta-icon {
+    display: block;
+    font-size: 0;
+  	color: white;
+}
+#tabsHome span.vc_tta-title-text {
+    color: white;
+}
+#tabsHome span.vc_tta-title-text:after {
+    height: 0 !important;
+}
+#tabsHome .vc_tta-panels {
+    border: none !important;
+  	background: transparent;
+}
+.arrow-tabs {
+    display: none;
+}
+
+
+
+/************************
+	Estilos para movil
+*************************/
+
+@media (max-width: 767.98px) { 
+  div#tabsHome {
+    margin-top: -25px;
+  }
+  #tabsHome .vc_tta-tabs-container {
+    padding: 0;
+    margin: 0;
+    -webkit-mask-image: none;
+  }
+  #tabsHome ul.vc_tta-tabs-list {
+    background: #f9a12c;
+    overflow-x: auto;
+  }
+  #tabsHome li.vc_tta-tab {
+    width: 130px;
+  }
+  #tabsHome li.vc_tta-tab a {
+  	padding: 0 !important;
+  }
+  
+  #tabsHome li.vc_tta-tab.vc_active {
+    background-size: 8rem 100%;
+  }
+  #tabsHome i.vc_tta-icon.fas {
+    padding: 14px;
+    margin-bottom: 2px;
+  }
+  #tabsHome i.vc_tta-icon.fas.fa-home {
+    background-size: 9rem 100%;
+  }
+  #tabsHome i.vc_tta-icon.fas.fa-clinic-medical {
+    background-size: 9rem 100%;
+  }
+  #tabsHome i.vc_tta-icon.fas.fa-graduation-cap {
+    background-size: 9rem 100%;
+  }
+  #tabsHome i.vc_tta-icon.fas.fa-hospital-alt {
+    background-size: 9rem 100%;
+  }
+  #tabsHome i.vc_tta-icon.far.fa-hospital {
+    background-size: 9rem 100%;
+  }
+  #tabsHome i.vc_tta-icon.fas.fa-store {
+    background-size: 9rem 100%;
+  }  
+  #tabsHome span.vc_tta-title-text {
+    color: white;
+    font-size: 15px !important;
+  }
+  #tabsHome .vc_tta-panel-body {
+    border: none !important;
+    background: transparent;
+  }
+  
+  /** flechas **/
+  .arrow-tabs {
+    display: block;
+    margin-bottom: 0;
+  }
+  .arrow-left {
+    position: absolute;
+    top: 37px;
+    left: 0;
+  }
+  .arrow-left:after {
+    content: "\f114";
+    font-family: "woodmart-font";
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+  }
+  .arrow-rigth {
+    position: absolute;
+    top: 35px;
+    right: 3px;
+  }     
+  .arrow-rigth:after {
+    content: "\f113";
+    font-family: "woodmart-font";
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+  }
+}
+
+
+@media (max-width: 991.98px) { 
+  div#tabsHome {
+    margin-top: -1.8rem;
+  }
+  #tabsHome .vc_tta-tabs-container {
+    padding: 0;
+    margin: 0;
+  }
+  #tabsHome ul.vc_tta-tabs-list {
+    overflow-x: auto;
+    white-space: nowrap;
+    background: #f9a12c;
+  }
+  
+  /** flechas **/
+  .arrow-tabs {
+    display: block;
+    margin-bottom: 0;
+  }
+  .arrow-left {
+    position: absolute;
+    top: 37px;
+    left: 0;
+  }
+  .arrow-left:after {
+    content: "\f114";
+    font-family: "woodmart-font";
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+  }
+  .arrow-rigth {
+    position: absolute;
+    top: 35px;
+    right: 3px;
+  }     
+  .arrow-rigth:after {
+    content: "\f113";
+    font-family: "woodmart-font";
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+  }
+  
+}</style>
+<!-- end Simple Custom CSS and JS -->

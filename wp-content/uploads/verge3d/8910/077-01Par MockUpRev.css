@@ -1,0 +1,76 @@
+
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+#v3d-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.fullscreen-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-size: 100% 100%;
+    display: none;
+    z-index: 1;
+}
+
+.fullscreen-open {
+    background-image: url('media/fullscreen_open.svg');
+}
+
+.fullscreen-close {
+    background-image: url('media/fullscreen_close.svg');
+}
+
+/***  cambiar logo y colores  ***/
+.v3d-simple-preloader-logo {
+    background-image: url("media/logo-etex.png");
+    background-size: cover;
+}
+.v3d-simple-preloader-bar {
+    background: linear-gradient(90deg, #ed6a4c, #ed6a4c);
+    width: 0%;
+    border-color: #ed6a4c;
+}
+.v3d-simple-preloader-logo {
+    width: auto;
+	height: 80px;
+}
+
+div#fullscreen_button {
+	display: none !important;
+}
+
+/*** Estilos de anotaciones ***/
+.v3d-annotation {
+    background-image: url("./media/icon-info.svg");
+    background-size: contain;
+    background-color: white;
+    font-size: 0;
+}
+div.v3d-annotation:hover {
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+div#suelo_dialog {
+    background: white;
+    color: black;
+    padding: 6px 10px;
+    min-width: max-content;
+}
+.v3d-annotation-transparent {
+	opacity: 0;
+}
+
+/* removes tap blinking on ios devices */
+* { -webkit-tap-highlight-color:rgba(0,0,0,0); }

@@ -1,0 +1,271 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="595" scrolly="294" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="564.587995536756" scrolly="301.7604483546948" scale="0.6949270619523383">
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimer" id="oKC/dIl)]4Kv9[g7e|}=" x="-614" y="-292">
+      <value name="ID">
+        <shadow type="text" id="ZdDIoNR,:OjWB[b`%BDZ">
+          <field name="TEXT">myTimer</field>
+        </shadow>
+        <block type="text" id="}=@2PSsf~MaW,aZdP`nw">
+          <field name="TEXT">autorotate</field>
+        </block>
+      </value>
+      <value name="VALUE">
+        <shadow type="math_number" id="wfX~FLGdoV?grV~oP,b!">
+          <field name="NUM">8</field>
+        </shadow>
+      </value>
+      <value name="REPEAT">
+        <shadow type="math_number" id="ZuE-8!tfoERaXI8,g``S">
+          <field name="NUM">Infinity</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="7~oPP.R4.-BXgEp%o{ap">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="PuvShjRjSK]0QSGMI?6/">
+              <field name="NUM">2</field>
+            </shadow>
+            <block type="math_number" id="RoeN_{}{,@OIDzt^cLC7">
+              <field name="NUM">1</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="baMRediW8F(#DTX[s$(u">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="xQAVwQ_:$lJh0yup^t1o">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="allObjectList" id="+0!)IV2b//yFo4yB7IiW"/>
+          </value>
+          <statement name="DO">
+            <block type="autoRotateCamera" id="m@=eKgS.9sy%e^|P3F$o">
+              <field name="ON_OFF">OFF</field>
+              <value name="SPEED">
+                <shadow type="math_number">
+                  <field name="NUM">2</field>
+                </shadow>
+                <block type="math_number" id="J)Hnlh|8.aVB}648hN#m">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="fMpkbPR$f4B2DJ$KUJ.V" x="-610" y="-90">
+      <value name="ANNOTATION">
+        <shadow type="text" id="6dPd$dOp#:)20~/A]8X}">
+          <field name="TEXT">1</field>
+        </shadow>
+        <block type="text" id=":W[[d*z8C/tbuW2o$k8Y">
+          <field name="TEXT">1</field>
+        </block>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id=",sYnRuy7VI;=8vzmEWM#">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="WZn8/z!?mDyj3ivCzLeT">
+          <field name="FIELDNAME">suelo_anotation</field>
+        </block>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="WBS:JfyTVMiI-wzeZbNm">
+          <field name="TEXT">Point of interest #1</field>
+        </shadow>
+        <block type="text" id="5j{gnIV5|bf5TAAU8E++">
+          <field name="TEXT"/>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="b2Cun?gpwF~5OM,T`c$_">
+          <field name="TEXT">poi1</field>
+        </shadow>
+        <block type="text" id=";!{:y@GL~ORk^m8]OBY`">
+          <field name="TEXT">suelo</field>
+        </block>
+      </value>
+      <next>
+        <block type="addAnnotation" id="Ppo0$a!DPwd9$bnD?-_T">
+          <value name="ANNOTATION">
+            <shadow type="text">
+              <field name="TEXT">1</field>
+            </shadow>
+            <block type="text" id="b,R?TYJI6Q?[[9|7pnA]">
+              <field name="TEXT">2</field>
+            </block>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id=";qL4ZqH_m3ql+eMgk?Me">
+              <field name="FIELDNAME">muro_basico_anotation</field>
+            </block>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text">
+              <field name="TEXT">Point of interest #1</field>
+            </shadow>
+            <block type="text" id="HkGaLw:)x?R}AOx5O}^J">
+              <field name="TEXT"/>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text">
+              <field name="TEXT">poi1</field>
+            </shadow>
+            <block type="text" id="AsJ-pWG0rQH:_o5Qv=PF">
+              <field name="TEXT">muro</field>
+            </block>
+          </value>
+          <next>
+            <block type="addAnnotation" id="sT6?[[u|jZ:e@)D#aXeK">
+              <value name="ANNOTATION">
+                <shadow type="text">
+                  <field name="TEXT">1</field>
+                </shadow>
+                <block type="text" id="{E7Val;?(q?^+Y(T4|jG">
+                  <field name="TEXT">3</field>
+                </block>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="%x`[5Vixc3/U{C5]Sae[">
+                  <field name="FIELDNAME">fibra_vidrio_anotation</field>
+                </block>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text">
+                  <field name="TEXT">Point of interest #1</field>
+                </shadow>
+                <block type="text" id="|+YN=Y-*,RTDw^=lv$pF">
+                  <field name="TEXT"/>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text">
+                  <field name="TEXT">poi1</field>
+                </shadow>
+                <block type="text" id="%p-mu?i^[esp;pIQ6Bi6">
+                  <field name="TEXT">fibra</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Y7oWl?{T}UIbFw$O/kH^" x="-610" y="70">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text">
+          <field name="TEXT"/>
+        </shadow>
+        <block type="text" id="PB6,+OnB~(G*o$G2a],d">
+          <field name="TEXT">muro</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="setHTMLElemStyle" id="Ph3NU}MD:dKSG}rro]r3">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">TRUE</field>
+          <value name="VALUE">
+            <block type="text" id="f-YKI,M-HA}gHdkC$!:X">
+              <field name="TEXT">block</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text">
+              <field name="TEXT"/>
+            </shadow>
+            <block type="text" id="dX2g}P;*A@RzBYWlsXXw">
+              <field name="TEXT">contentpopup</field>
+            </block>
+          </value>
+          <next>
+            <block type="console.log" id="+^fn18qi-x-fu*Hkk?_|">
+              <value name="VALUE">
+                <shadow type="text" id="c!FGBI[j99+7=)up(u12">
+                  <field name="TEXT">Hello, Verge!</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimeout" id="JjYD(IOfIhJ`hx(p#u;C" x="210" y="130">
+      <value name="VALUE">
+        <shadow type="math_number" id="cWL4;vh3:#bdf,WZ-]qo">
+          <field name="NUM">3</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setHTMLElemStyle" id="iT(:*1IiH7b9Y7irI*A`">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">TRUE</field>
+          <value name="VALUE">
+            <block type="text" id="~sSV;8gB=TF{Rb8$/PUh">
+              <field name="TEXT">block</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text">
+              <field name="TEXT"/>
+            </shadow>
+            <block type="text" id="Vm/{q17!GB!mG`$P)SY8">
+              <field name="TEXT">contentpopup</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="y0YU3x~?}JIpu,;jY7OR" x="-610" y="210">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="~/a$U)%2+Pjayz~v4)k?">
+          <field name="TEXT"/>
+        </shadow>
+        <block type="text" id="F%4?dr2l9fcFC.9sQB)M">
+          <field name="TEXT">closePopup</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="setHTMLElemStyle" id=";@:@.;0vlKw*JIr-HdyD">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">TRUE</field>
+          <value name="VALUE">
+            <block type="text" id="1hL5kKg_4J/-B#_(Iuoo">
+              <field name="TEXT">none</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="^U7vq{8@1}P[#0Y.1hp3">
+              <field name="TEXT"/>
+            </shadow>
+            <block type="text" id="c$?|ePW4K$um0.P3..g~">
+              <field name="TEXT">contentpopup</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="798" viewport-y="28" viewport-w="544" viewport-h="332" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

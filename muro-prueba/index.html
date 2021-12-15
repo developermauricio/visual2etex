@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- __V3D_PUZZLES__ - enable Puzzles button in the App Manager -->
+<!-- __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated -->
+<html lang="en">
+<head>
+  <title>Muro de Prueba</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  <!-- Search Engines -- >
+  <meta name="description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the WebGL and HTML5 technologies.">-->
+  
+  <!-- Open Graph -- >
+  <meta property="og:title" content="Verge3D Web Interactive">
+  <meta property="og:description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the WebGL and HTML5 technologies.">
+  <meta property="og:image" content="https://cdn.soft8soft.com/images/player_socials.jpg">
+  <meta property="og:type" content="website">-->
+
+  <meta name="generator" content="Verge3D 3.7.1">
+
+  <!-- favicons -- >
+  <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+  <link rel="manifest" href="media/manifest.json">
+  <link rel="mask-icon" href="media/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">-->
+
+
+  
+  <script src="v3d.js"></script>
+  <script src="cicles_muro.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="cicles_muro.css">
+  <link rel="stylesheet" type="text/css" href="css/styles_popup.css">
+</head>
+
+<body>
+  <div id="v3d-container">
+    <div id="fullscreen_button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
+  </div>
+  
+	 <!--  BEGIN Elementos popup muro basico  -->
+	 <div id="contentPopup" class="div-block">
+		<div id="headerPopup" class="div-block-2">
+			<h2 id="titlePopup" class="heading">PLACA Estándar</h2>
+			<div id="closePopup" class="text-block">
+				<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+					<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+				</svg>
+			</div>
+        </div>
+        <div id="bodyPopup" class="div-block-3">
+			<div class="image">
+				<a href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-Gyplac-Placa-Estandar.pdf" target="_blank">
+					<img src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/placa.png" loading="lazy" width="200" id="imgPopup" alt="placa" class="img-placa">
+				</a>
+			</div>
+			<div class="paragraph">
+				<h3>Descripción del Producto</h3>
+				Placa de yeso compuesta por un núcleo de roca de yeso y
+				aditivos, cuyas caras están revestidas por varias capas de
+				papel celulosa 100% de procesos reciclados.<br><br>
+				Estas son fabricadas cumpliendo las especificaciones
+				descritas en la norma NTC 16159.
+				<br><br>
+				<a href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-Gyplac-Placa-Estandar.pdf" target="_blank">Más información</a>
+			</div>
+		</div>
+    </div>
+	<!--  END Elementos popup muro basico  -->
+	
+	<!--  BEGIN Elementos popup fibra de vidrio  -->
+	 <div id="contentPopupFibra" class="div-block">
+		<div id="headerPopupFibra" class="div-block-2">
+			<h2 id="titlePopupFibra" class="heading">Lana de fibra de Vidrio</h2>
+			<div id="closePopupFibra" class="text-block">
+				<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+					<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+				</svg>
+			</div>
+        </div>
+        <div id="bodyPopupFibra" class="div-block-3">
+			<div class="image">
+				<a href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-LANA-FIBRA-DE-VIDRIO.pdf" target="_blank">
+					<img src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/fibra_vidrio.png" loading="lazy" width="200" id="imgPopupFibra" alt="fibra de vidrio" class="img-placa">
+				</a>
+			</div>
+			<div id="paragraphFibra" class="paragraph">
+				<h3>Descripción del Producto</h3>
+				Aislamiento térmico y acústico utilizado en las
+				edificaciones, especialmente para ser instalado entre
+				la perfilería de muros de los sistemas constructivos en
+				seco (Dry Wall) en áreas residenciales, comerciales e
+				industriales.
+				<br><br>
+				<a href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-LANA-FIBRA-DE-VIDRIO.pdf" target="_blank">Más información</a>
+			</div>
+		</div>
+    </div>
+	<!--  END Elementos popup fibra de vidrio  -->
+	
+	
+	<!--  BEGIN Elementos popup Acrilico  -->
+	 <div id="contentPopupAcrilico" class="div-block">
+		<div id="headerPopupAcrilico" class="div-block-2">
+			<h2 id="titlePopupAcrilico" class="heading">Sellante Cortafuego Acrílico</h2>
+			<div id="closePopupAcrilico" class="text-block">
+				<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+					<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+				</svg>
+			</div>
+        </div>
+        <div id="bodyPopupAcrilico" class="div-block-3">
+			<div class="image">
+				<a href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-PROMASEAL-A-Acrilic.pdf" target="_blank">
+					<img src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/Acrilico.png" loading="lazy" width="200" id="imgPopupAcrilico" alt="acrilico" class="img-placa">
+				</a>
+			</div>
+			<div id="paragraphAcrilico" class="paragraph">
+				<h3>Descripción General</h3>
+				PROMASEAL®-A sellante acrílico, monocomponente para
+				tratamiento y sellado de juntas estáticas y sin movimiento;
+				instalación práctica, de forma rápida y segura gracias a su
+				excelente adhesión y cualidades de aplicación. Puede usarse
+				pintura común de emulsión para dar color o acabado a las
+				juntas.
+				<br><br>
+				<a href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-PROMASEAL-A-Acrilic.pdf" target="_blank">Más información</a>
+			</div>
+		</div>
+    </div>
+	<!--  END Elementos popup Acrilico  -->
+  
+</body>
+
+</html>

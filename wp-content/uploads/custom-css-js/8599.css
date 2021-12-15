@@ -1,0 +1,303 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/***  estilos navbar  ***/
+.proximamente {
+  	width: 100%;
+    height: 800px;
+    text-align: center;
+    background: gray;
+    font-size: 3rem;
+    color: white;
+    padding-top: 20rem;
+}
+
+.whb-row.whb-general-header.whb-sticky-row.whb-without-bg.whb-without-border.whb-color-light.whb-flex-flex-middle {
+    background: #00000029;
+}
+.whb-sticked .whb-row.whb-general-header.whb-sticky-row.whb-without-bg.whb-without-border.whb-color-light.whb-flex-flex-middle {
+    background: #565655f5;
+}
+
+/*.main-page-wrapper {
+    /*background-image: url(/wp-content/uploads/2021/10/patron.png) * /
+  background-image: url(/wp-content/uploads/2021/10/background-virtualetex-min-scaled.jpg) !important;
+  background-size: cover;
+}*/
+
+div#spacing-page-contact {
+    height: 5.5rem !important;
+}
+
+
+/***********************************
+	Estilos de page contact
+************************************/
+div#col-form-contact {
+    padding-right: 5rem;
+}
+.text-contact-page {
+    text-align: justify;
+}
+span.required-field {
+  color: red;
+  font-size: 1.5rem;
+  line-height: 0rem;
+}
+.content-field-form {
+  margin-bottom: -15px;
+}
+.send-register {
+  background: #e95a38;
+  color: white;
+  border-radius: 5px;
+}
+.send-register:hover {
+  background: black;
+  color: white;
+}
+.term-cond-contact {
+  color: #e95a38;
+}
+.term-cond-contact:hover {
+  color: black;
+}
+.item-our-brands {
+  padding: 1rem 2rem;
+}
+
+
+
+
+/***********************************
+	Estilos slider home
+************************************/
+.slider-my-font-family {
+    font-family: 'Gotham book' !important;
+}
+
+.slider-my-font-family-bold {
+    font-family: 'Gotham bold' !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+.img-nuestras-soluciones {
+    padding: 0px 6rem;
+    max-height: 450px;
+}
+
+
+/***********************************
+	Estilos de login y registro  
+************************************/
+a.btn.wd-switch-to-register {
+    background-color: #e95a38;
+    color: white;
+}
+div.registration-info {
+    text-align: justify;
+}
+div#spacing-login {
+  height: 6rem !important;
+  background: #21212145;
+}
+p.send-password-email {
+    color: #e95a38;
+    font-weight: 500;
+    font-size: 1rem;
+}
+button#btnRegister {
+    margin-top: 1rem;
+}
+
+
+/*********************************  
+	Estilos página apartamento  
+**********************************/
+div#content-apartamento {
+    margin-top: -40px;
+    margin-bottom: -69px;
+}
+.ipnrm-theme-light .ipnrm-tooltips .ipnrm-form {
+	padding: 0 !important;
+    /*background-color: #fff0 !important;*/
+}
+p.style-tooltip {
+    color: #ed6a4c;
+    padding: 0.2rem 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+/*********************************  
+	Estilos slider apartamento  
+*********************************/
+div.content-slider-info-box .owl-dots {
+    display: none;
+}
+.main-slider-info-fox {
+    background-image: url(/wp-content/uploads/2021/09/banner@2x.png);
+    background-size: 79rem 100%;
+    background-repeat: no-repeat;
+}
+.main-slider-info-fox .info-box-icon {
+    width: 50px;
+}
+.main-slider-info-fox .info-svg-wrapper.info-icon {
+    width: 50px !important;
+    height: 50px !important;
+}
+.main-slider-info-fox .box-icon-wrapper.box-with-icon.box-icon-simple {
+    margin-bottom: 0;
+}
+.main-slider-info-fox .owl-stage-outer {
+    padding: 0 !important;
+}
+.main-slider-info-fox div.item-info-box {
+    padding: 10px 0;
+}
+.main-slider-info-fox div.item-info-box:hover {
+    background-image: url(/wp-content/uploads/2021/09/Trazado-30@2x.png) !important;
+    padding: 10px 0;
+    background-size: 16rem 100%;
+    background-repeat: no-repeat;
+}
+
+/*************************
+	Estilos footer  
+**************************/
+.footer-container .container {
+    max-width: 100%;
+    padding-right: 0;
+}
+.footer-container .min-footer {
+    text-align: center; 
+}
+small#textFooter {
+    font-size: 100%;
+}
+img#imgLogoFooter {
+    margin-bottom: -20px;
+}
+
+
+/*************************
+	Estilos page system  
+**************************/
+.content-modal-modelo-3d {
+    padding: 5px !important;
+    width: 850px !important;
+    height: 92vh !important;
+}
+iframe.modal-model-3d {
+  height: 90vh;
+}
+.wpb_content_element {
+    text-align: justify;
+}
+
+
+
+/*************************
+	Estilos for movil  
+**************************/
+@media (max-width: 767.98px) { 
+  div#spacing-login {
+    height: 4rem !important;
+  }
+  .img-nuestras-soluciones {
+    padding: 0px 2rem;
+    max-height: 400px;
+  }
+  
+  .main-slider-info-fox {
+    background: #f9a12c;
+  }
+  .main-slider-info-fox div.item-info-box {
+    padding: 10px 0;
+  }
+  .main-slider-info-fox .info-box-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .main-slider-info-fox .info-svg-wrapper.info-icon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .main-slider-info-fox h4.info-box-title {
+    margin-bottom: 0;
+  }
+  .main-slider-info-fox div.item-info-box:hover {
+    padding: 10px 0;
+    background-size: 12rem 100%;
+  }
+  
+  div#imagesApartementPromo {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  div#content-apartamento {
+    margin-bottom: -26px;
+  }
+  div#spacingApartamentBanner {
+    height: 0 !important;
+  }
+  
+  .footer-container .min-footer {
+    text-align: left; 
+  }
+  small#textFooter {
+    font-size: 80%;
+  }
+  img#imgLogoFooter {
+    margin-right: -109px;
+  }
+  
+  div#col-form-contact {
+    padding-right: 0;
+  }
+  
+  .item-our-brands {
+     padding: 1rem 1rem;
+  }
+  
+  .content-modal-modelo-3d {
+    width: 100% !important;
+    height: 82vh !important;
+  }
+  iframe.modal-model-3d {
+    height: 80vh;
+  }
+  
+}
+
+@media (max-width: 991.98px) { 
+  div#content-apartamento {
+    margin-bottom: -28px;
+  }
+  .main-slider-info-fox {
+    background-size: 49.5rem 100%;
+  }
+  .main-slider-info-fox div.item-info-box {
+    padding: 5px 0 !important;
+  }
+  .main-slider-info-fox div.item-info-box:hover {
+    background-size: 12.5rem 100%;
+  }
+  .main-slider-info-fox .info-svg-wrapper.info-icon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .main-slider-info-fox .info-box-title {
+    margin-bottom: 0px;
+    font-size: 1rem;
+  }
+  div#spacingApartamentBanner {
+    height: 0 !important;
+  }
+  
+}</style>
+<!-- end Simple Custom CSS and JS -->

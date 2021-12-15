@@ -1,0 +1,177 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="595" scrolly="294" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="595" scrolly="294" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimer" id=";~#M#=e$)Fre~|rxTmOJ" x="-630" y="-310">
+      <value name="ID">
+        <shadow type="text" id="7HVEg-d)K/,GGnDYDlpk">
+          <field name="TEXT">myTimer</field>
+        </shadow>
+        <block type="text" id="r:Fo^1ow0M,w5M!jO6VW">
+          <field name="TEXT">autorotate</field>
+        </block>
+      </value>
+      <value name="VALUE">
+        <shadow type="math_number" id="b`3]~qJtOD%3V)yv_8EL">
+          <field name="NUM">1</field>
+        </shadow>
+        <block type="math_number" id="iBXjH;aQqm|T)M*)50vJ">
+          <field name="NUM">8</field>
+        </block>
+      </value>
+      <value name="REPEAT">
+        <shadow type="math_number" id=";{pYiR|7oA[ou7Iohs.V">
+          <field name="NUM">Infinity</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="lS6`sA-ebCiK9wsJakfr">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="uzk;h%z5$U-jkV0^VJ.*">
+              <field name="NUM">2</field>
+            </shadow>
+            <block type="math_number" id=")~+nnQ;?MP).^y]mG@uY">
+              <field name="NUM">1</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="9L/WkX4e4n^X7eqBbl$_">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="XVI]e@*b.eY1{Vl|~dQP">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="allObjectList" id="/#^.9?]oY^g+Eq$ah{=t"/>
+          </value>
+          <statement name="DO">
+            <block type="autoRotateCamera" id="q/I;E/ml^y?C[)=a#/`[">
+              <field name="ON_OFF">OFF</field>
+              <value name="SPEED">
+                <shadow type="math_number">
+                  <field name="NUM">2</field>
+                </shadow>
+                <block type="math_number" id="P[[u*DOXekTW4sx:,YJd">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="y4$+~,lY^)n.E-7m6MSg" x="-630" y="-110">
+      <value name="ANNOTATION">
+        <shadow type="text" id="=Rqzrg$v;~g!v(anOe.B">
+          <field name="TEXT">1</field>
+        </shadow>
+        <block type="text" id="/q5=FL|(Fg/36;$S1R#-">
+          <field name="TEXT">1</field>
+        </block>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="xNEAz|@%P*@`C3`)7|:|">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id=",[B6XdersfLWr1Vy_c~-">
+          <field name="FIELDNAME">suelo_anotation</field>
+        </block>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="+ZpGgKNi!g^0b^RYORVe">
+          <field name="TEXT">Point of interest #1</field>
+        </shadow>
+        <block type="text" id="G9sT;a5mr9~+?yNuyAm|">
+          <field name="TEXT">Suelo Genérico</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="U3RX3KpTp2fR;83i/zn}">
+          <field name="TEXT">poi1</field>
+        </shadow>
+        <block type="text" id="~O8uhia.8I)RBypVF)t,">
+          <field name="TEXT">suelo</field>
+        </block>
+      </value>
+      <next>
+        <block type="addAnnotation" id="sICfTR6d]h`Yv_Z/+l9/">
+          <value name="ANNOTATION">
+            <shadow type="text">
+              <field name="TEXT">1</field>
+            </shadow>
+            <block type="text" id="^_f4|@Rj)NpkRl)xZL]R">
+              <field name="TEXT">2</field>
+            </block>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="lspqfE;N6/Po^@AM4Mi{">
+              <field name="FIELDNAME">lamina_anotation</field>
+            </block>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text">
+              <field name="TEXT">Point of interest #1</field>
+            </shadow>
+            <block type="text" id="Q$nHV~$?ZjFVhs]s(8/S">
+              <field name="TEXT"/>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text">
+              <field name="TEXT">poi1</field>
+            </shadow>
+            <block type="text" id="JFTXsqo.60)S|w!4/C5*">
+              <field name="TEXT">lamina</field>
+            </block>
+          </value>
+          <next>
+            <block type="addAnnotation" id="01SVg#r]gL19]r`P?lx^">
+              <value name="ANNOTATION">
+                <shadow type="text">
+                  <field name="TEXT">1</field>
+                </shadow>
+                <block type="text" id="]`D;TA!|TS*-SDqV.~?N">
+                  <field name="TEXT">3</field>
+                </block>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="]VF|AwY0Y!NfW%0w-|~~">
+                  <field name="FIELDNAME">fibra_anotation</field>
+                </block>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text">
+                  <field name="TEXT">Point of interest #1</field>
+                </shadow>
+                <block type="text" id="GCq6+!YR[3vz,Io5SL+7">
+                  <field name="TEXT"/>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text">
+                  <field name="TEXT">poi1</field>
+                </shadow>
+                <block type="text" id="^3d{..;6KEVTUT*ivb*S">
+                  <field name="TEXT">fibra</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="798" viewport-y="28" viewport-w="544" viewport-h="332" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

@@ -1,0 +1,363 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/*********************************
+    Estilos tabs content info
+**********************************/
+.main-content-tabs-walls {
+    margin-top: -73px !important;
+}
+.main-content-tabs-walls .vc_tta-tabs-container {
+    padding: 0 14.2rem;
+}
+.main-content-tabs-walls ul.vc_tta-tabs-list {
+    /*display: flex !important;
+    justify-content: center !important;*/
+  	background-image: url(/wp-content/uploads/2021/09/banner@2x.png);
+    background-repeat: no-repeat;
+    background-size: 50rem 100%;
+}
+.main-content-tabs-walls li.vc_tta-tab {
+    padding: 3px 0 0 !important;
+  	width: 200px;
+}
+.main-content-tabs-walls li.vc_tta-tab.vc_active {
+    background-image: url(/wp-content/uploads/2021/09/Trazado-30@2x.png);
+    background-size: 12rem 100%;
+    background-repeat: no-repeat;
+}
+
+.main-content-tabs-walls span.vc_tta-title-text {
+    color: white;
+}
+.main-content-tabs-walls span.vc_tta-title-text:after {
+    height: 0 !important;
+}
+.main-content-tabs-walls i.vc_tta-icon {
+    display: block !important;
+    font-size: 0 !important;
+}
+.main-content-tabs-walls i.vc_tta-icon.far.fa-file-pdf {
+    background-image: url(/wp-content/uploads/2021/10/icon-documentos-white.svg);
+    background-repeat: no-repeat;
+    background-size: 11rem 100%;
+    padding: 1.2rem;
+    margin-bottom: 5px;
+}
+.main-content-tabs-walls i.vc_tta-icon.fas.fa-film {
+    background-image: url(/wp-content/uploads/2021/10/icon-play-2-white.svg);
+    background-repeat: no-repeat;
+    background-size: 11rem 100%;
+    padding: 1.2rem;
+    margin-bottom: 5px;
+}
+.main-content-tabs-walls i.vc_tta-icon.far.fa-images {
+    background-image: url(/wp-content/uploads/2021/10/icon-galeria-white.svg);
+    background-repeat: no-repeat;
+    background-size: 11rem 100%;
+    padding: 1.2rem;
+    margin-bottom: 5px;
+}
+.main-content-tabs-walls i.vc_tta-icon.fas.fa-info-circle {
+    background-image: url(/wp-content/uploads/2021/10/icon-informacion-white.svg);
+    background-repeat: no-repeat;
+    background-size: 11rem 100%;
+    padding: 1.2rem;
+    margin-bottom: 5px;
+}
+.main-content-tabs-walls .vc_tta-panels {
+    background: white !important;
+    border: none !important;
+}
+.content-document-especification .info-box-icon {
+    width: 50px;
+}
+
+
+
+
+/*********************************
+    Estilos header modal muros
+**********************************/
+iframe.inlineFrameExample {
+    /*height: 80vh !important;*/
+  	height: 758px;
+}
+
+.main-content-system {
+    min-width: 1300px !important;
+}
+
+.main-content-system {
+    background: transparent;
+    width: 100%;
+}
+.content-img-logo-etex {
+    width: 300px;
+    margin-bottom: -50px;
+    padding-left: 1rem;
+  	padding-top: 1rem;
+}
+img.img-logo-etex {
+    height: 34px;
+}
+.fields-references-walls {
+    background: #00000021;
+    padding: 1rem 0;
+    color: white;
+    margin-bottom: 0;
+}
+.number-references-walls {
+    font-size: 1.2rem;
+    line-height: 12px;
+}
+div.content-references-walls:hover {
+  	color: #000000;
+}
+div#wallReferenceGood051 {
+  	color: #000000;
+}
+.content-title-reference-walls {
+    display: flex;
+    justify-content: end;
+  	padding-right: 1rem;
+}
+.content-references-walls {
+    padding: 0 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+div.main-content-walls-references {
+    max-width: 1300px !important;
+}
+
+
+/*********************************
+    Estilos titulo del muro
+**********************************/
+div.name-reference-wall {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    min-width: 10% !important;
+    width: 230px;
+}
+
+div.name-reference-wall .title-subtitle {
+    line-height: 35px !important;
+}
+div.name-reference-wall .liner-continer {
+    margin: -10px 0 0 0;
+}
+div.name-reference-wall .title-after_title {
+    line-height: 22px !important;
+}
+.description-muro {
+    text-align: justify;
+}
+
+
+
+/**************************************
+	Estilos del contenido del muro
+***************************************/
+div.item-docs-wall {
+    padding: 1rem 0;
+}
+.muy-pronto {
+  	width: 1300px;
+    padding: 10rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #e95a38;
+}
+div.gallery-images .wd-gallery-item {
+    height: 410px !important;
+}
+
+
+/***********************************************
+	Estilos posicion de la modal de imagenes
+************************************************/
+.pswp__caption__center {
+    margin: 0 auto;
+    padding: 10px 0 4rem;
+    max-width: 800px;
+    color: #eb6e37;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+.pswp {
+    z-index: 999999;
+}
+
+
+
+/***************************
+	Estilos scroll model
+****************************/
+.scroll-bottom {
+    position: absolute;
+    top: 5.5rem;
+    right: 2rem;
+    z-index: 5;
+}
+.cont-icon-arrow {
+    border-radius: 50%;
+    border: 2px solid #eb6e379c;
+    padding: 7px;
+    background: white;
+}
+img.icon-arrow-down {
+    width: 35px;
+}
+.rotate {
+  transform: rotate(180deg);
+}
+
+/*************************
+	Estilos para movil
+**************************/
+@media (max-width: 575.98px) { 
+  .main-content-system {
+    min-width: auto !important;
+    /*top: 1rem;*/
+  }
+  .content-img-logo-etex {
+    display: none;
+  }
+  .fields-references-walls {
+    margin-right: -2rem;
+  }
+  .content-title-reference-walls {
+    justify-content: center;
+  }
+  div.name-reference-wall {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 1rem;
+    padding: 0 1rem;
+  }
+  iframe.inlineFrameExample {
+    height: 520px;
+  }
+  .arrow-tabs-walls {
+    display: block;
+    margin-bottom: 0;
+    margin-top: -10px;
+  }
+  .arrow-left-walls {
+    position: relative;
+    margin-left: -3px;
+  }
+  .arrow-rigth-walls {
+    position: relative;
+    margin-right: -3px;
+    margin-top: -27px;
+    text-align: right;
+  }
+  .arrow-left-walls:after {
+    content: "\f114";
+    font-family: "woodmart-font";
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+  }    
+  .arrow-rigth-walls:after {
+    content: "\f113";
+    font-family: "woodmart-font";
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+  }
+  .main-content-tabs-walls {
+    margin-top: -48px !important;
+  }
+  .muy-pronto {
+    width: auto;
+    padding: 6rem 1rem 0;
+  }
+  
+}
+
+@media (max-width: 767.98px) { 
+
+  .main-content-tabs-walls .vc_tta-tabs-container {
+    padding: 0;
+    margin: 0 10px !important;
+    -webkit-mask-image: none !important;
+  }
+  .main-content-tabs-walls ul.vc_tta-tabs-list {
+    background: #f9a12c;
+    overflow-x: auto !important;
+  }
+  .main-content-tabs-walls .vc_tta-tab a {
+    padding: 0 0 3px !important;
+  }
+  .main-content-tabs-walls li.vc_tta-tab {
+    width: 140px;
+  }
+  .main-content-tabs-walls li.vc_tta-tab.vc_active {
+    background-size: 8.5rem 100%;
+  }
+  .main-content-tabs-walls i.vc_tta-icon {
+    background-size: 11rem 100% !important;
+    padding: 14px !important;
+    margin-bottom: 2px !important;
+  }
+  .main-content-tabs-walls span.vc_tta-title-text {
+    margin-left: 0 !important;
+    font-size: 14px;
+  }
+  .main-content-tabs-walls .vc_tta-panel-body {
+    background: transparent !important;
+    border: none !important;
+  }
+  .content-scroll-bottom {
+    right: 9%;
+  }
+  
+  .scroll-bottom {
+    top: 5.2rem;
+    right: 0.8rem;
+  }
+
+}
+
+
+@media (max-width: 991.98px) { 
+  div#mainContentMap {
+    display: none;
+  }
+  .main-content-tabs-walls .vc_tta-tabs-container {
+    padding: 0;
+  }
+  .main-content-tabs-walls ul.vc_tta-tabs-list {
+    background-size: 46.3rem 100%;
+    overflow-x: auto !important;
+  }
+  .main-content-tabs-walls li.vc_tta-tab {
+    width: 180px;
+  }
+  .main-content-tabs-walls li.vc_tta-tab.vc_active {
+    background-size: 11.4rem 100%;
+  }
+  .main-content-tabs-walls li.vc_tta-tab a {
+    padding: 2px 0 !important;
+  }
+  
+  .main-content-system {
+    min-width: auto !important;
+  }
+  .fields-references-walls {
+    margin-right: -30px;
+  }
+  
+  iframe.inlineFrameExample {
+    height: 600px;
+  }
+}</style>
+<!-- end Simple Custom CSS and JS -->

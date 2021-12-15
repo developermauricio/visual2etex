@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!-- __V3D_PUZZLES__ - enable Puzzles button in the App Manager -->
+<!-- __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated -->
+<html lang="en">
+<head>
+  <title>Verge3D Web Interactive</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  <!-- Search Engines -->
+  <meta name="description" content="Muro M6 Better 023.">
+  
+  <!-- <meta name="generator" content="Verge3D 3.7.1">
+
+  <! -- favicons -- >
+  <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+  <link rel="manifest" href="media/manifest.json">
+  <link rel="mask-icon" href="media/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">-->
+
+
+  
+  <script src="v3d.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="M6_Better_023.css">
+  <link rel="stylesheet" type="text/css" href="css/styles_popup.css">
+</head>
+
+<body>
+  <div id="v3d-container">
+    <div id="fullscreen_button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
+  </div>
+
+
+  <!--  BEGIN Elementos popup muro basico  -->
+  <div id="contentPopup" class="div-block">
+		<div id="headerPopup" class="div-block-2">
+			<h2 id="titlePopup" class="heading">PLACA Estándar</h2>
+			<div id="closePopup" class="text-block">
+				<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+					<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+				</svg>
+			</div>
+        </div>
+        <div id="bodyPopup" class="div-block-3">
+			<div class="image">
+				<a href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-Gyplac-Placa-Estandar.pdf" target="_blank">
+					<img src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/placa.png" loading="lazy" width="200" id="imgPopup" alt="placa" class="img-placa">
+				</a>
+			</div>
+			<div class="paragraph">
+				<h3>Descripción del Producto</h3>
+				Placa de yeso compuesta por un núcleo de roca de yeso y
+				aditivos, cuyas caras están revestidas por varias capas de
+				papel celulosa 100% de procesos reciclados.<br><br>
+				Estas son fabricadas cumpliendo las especificaciones
+				descritas en la norma NTC 16159.
+				<br><br>
+				<!-- <a href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-Gyplac-Placa-Estandar.pdf" target="_blank">Más información</a> -->
+				<span id="laminaInfo" class="more-info">Más información</span>
+			</div>
+		</div>
+  </div>
+	<!--  END Elementos popup muro basico  -->
+
+
+  <!--  BEGIN Elementos popup fibra de vidrio  -->
+	<div id="contentPopupFibra" class="div-block">
+		<div id="headerPopupFibra" class="div-block-2">
+			<h2 id="titlePopupFibra" class="heading">Lana de fibra de Vidrio</h2>
+			<div id="closePopupFibra" class="text-block">
+				<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+					<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+				</svg>
+			</div>
+        </div>
+        <div id="bodyPopupFibra" class="div-block-3">
+			<div class="image">
+				<a href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-LANA-FIBRA-DE-VIDRIO.pdf" target="_blank">
+					<img src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/fibra_vidrio.png" loading="lazy" width="200" id="imgPopupFibra" alt="fibra de vidrio" class="img-placa">
+				</a>
+			</div>
+			<div id="paragraphFibra" class="paragraph">
+				<h3>Descripción del Producto</h3>
+				Aislamiento térmico y acústico utilizado en las
+				edificaciones, especialmente para ser instalado entre
+				la perfilería de muros de los sistemas constructivos en
+				seco (Dry Wall) en áreas residenciales, comerciales e
+				industriales.
+				<br><br>
+				<a class="linkpdf" href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-LANA-FIBRA-DE-VIDRIO.pdf" target="_blank">Más información</a>
+				<!-- <span id="fibraInfo" class="more-info">Más información</span> -->
+			</div>
+		</div>
+  </div>
+	<!--  END Elementos popup fibra de vidrio  -->
+
+
+  <!--  BEGIN Elementos popup especificación técnica  -->
+  <div id="content-icon-more-info">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle icon-more-info" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+      <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+    </svg> --> 
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle-fill icon-more-info" viewBox="0 0 16 16">
+      <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+    </svg>
+  </div>
+
+  <div id="contentPopupInfo">
+		<div id="headerPopupInfo" class="div-block-2">
+			<h2 id="titlePopupInfo" class="heading">Especificación técnica</h2>
+			<div id="closePopupInfo" class="text-block">
+				<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+					<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+				</svg>
+			</div>
+    </div>
+    <div id="bodyPopup" class="div-block-3">			
+			<div class="content-specification specification-left">
+				<span class="text-title">TIPOLOGÍA</span>
+				<span class="text-title">APLICACIÓN</span>
+				<span class="text-title">ESPECIFICACIÓN</span>
+        <br>
+        <span class="block color-etex">Placa 1</span>
+        <span class="block color-etex">Placa 2</span>
+        <span class="block color-etex">Estructura 1</span>
+        <span class="block color-etex">Aislamiento</span>
+        <span class="block color-etex">Estructura 2</span>
+        <span class="block color-etex">Placa 3</span>
+        <span class="block color-etex">Placa 4</span>
+        <span class="block color-etex">Placa 5</span>
+        <br>
+        <span class="block color-etex">Altura(m)</span>
+        <span class="block color-etex">Espesor(mm)</span>
+        <span class="block color-etex">Peso kg/m2</span>
+        <span class="block color-etex">Aislamiento Acústico STC</span>
+        <span class="block color-etex">Resistencia Termica Req m2K/W</span>
+        <span class="block color-etex">Transmitancia Termica Ueq W/m2K</span>
+        <span class="block color-etex">Resistencia al Fuego RF-min</span>
+        <span class="block color-etex">Resistencia a la Humedad</span>
+        <span class="block color-etex">Resistencia al impacto</span>
+        <span class="block color-etex">Separación Estructura(mm)</span>
+        <span class="block color-etex">Sello Perimetral</span>
+        <span class="block color-etex">Costo Directo m2</span>
+			</div>
+      <div class="content-specification">
+				<span class="text-title color-etex">023Par</span>
+        <span class="block">Paredes Interiores</span>
+        <span class="block">Partición Zonas húmedas</span>
+        <br>
+        <span class="block">Gyplac® ST 15,9 x 1220 x 2440mm</span>
+        <span class="block">Gyplac® ST 15,9 x 1220 x 2440mm</span>
+        <span class="block">Paral 3-1/2" x 1-5/8" cal 24 e=0,60mm</span>
+        <span class="block">Lana de Vidrio Gyplac®3.5"</span>
+        <span class="block">0</span>
+        <span class="block">0</span>
+        <span class="block">0</span>
+        <span class="block">0</span>
+        <br>
+        <span class="block">3.1</span>
+        <span class="block">121.8</span>
+        <span class="block">25.60</span>
+        <span class="block">_47</span>
+        <span class="block">1.87</span>
+        <span class="block">0.54</span>
+        <span class="block">0</span>
+        <span class="block">H. Relativa - H. Relativa</span>
+        <span class="block">0</span>
+        <span class="block">407</span>
+        <span class="block">Sellante elastomérico</span>
+        <span class="block">$ 103,972</span>
+			</div>
+		</div>
+  </div>
+  <!--  END Elementos popup especificación técnica  -->
+
+
+  <!--  BEGIN Documentos del sistema  -->
+  <div id="content-icon-documents">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle-fill icon-more-info" viewBox="0 0 16 16">
+      <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+    </svg>
+  </div>
+
+  <div id="contentPopupDocuments">		
+    <div id="bodyPopupDocuments" class="div-block-3">	
+      <p id="closeDocs" class="documents color-etex">Documentos del Sistema</p>		
+      <div id="content-img-documents">
+        <a class="content-docs" href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-SISTEMA-007.pdf" target="_blank">
+          <img class="img-docs" src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/09/ficha.png" alt="logo 1" >
+          <span class="span-docs color-etex">Ficha técnica</span>
+        </a>
+        <a class="content-docs" href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-SISTEMA-007.pdf" target="_blank">
+          <img class="img-docs" src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/09/acustica.png" alt="logo 1" >
+          <span class="span-docs color-etex">Acustica</span>
+        </a>
+        <a class="content-docs" href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-SISTEMA-007.pdf" target="_blank">
+          <img class="img-docs" src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/09/fuego.png" alt="logo 1" >
+          <span class="span-docs color-etex">Fuego</span>
+        </a>
+        <a class="content-docs" href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/FT-SISTEMA-007.pdf" target="_blank">
+          <img class="img-docs" src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/09/impacto.png" alt="logo 1" >
+          <span class="span-docs color-etex">Impacto</span>
+        </a>
+      </div>
+		</div>
+  </div>  
+  <!--  END Documentos del sistema  -->
+
+
+  <!--  BEGIN Elementos popup marcas  -->
+  <div id="content-text-brand"><span>Marcas</span></div>
+
+  <div id="contentPopupBrand">		
+    <div id="bodyPopupBrand" class="div-block-3">			
+      <div id="content-img-brand">
+        <img class="img-brand" src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/logo-superboard.png" alt="logo 1" >
+        <img class="img-brand" src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/logo-gyplac.png" alt="logo 2" >
+        <img class="img-brand" src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/logo-proteja.png" alt="logo 3" >
+        <img class="img-brand" src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/logo-acuaviva.png" alt="logo 4" >
+        <img class="img-brand" src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/08/logo-promat.png" alt="logo 5" >
+      </div>
+		</div>
+  </div>  
+  <!--  END Elementos popup marcas  -->
+
+
+  <!--  BEGIN Elementos videos  -->
+  <div id="contentTextVideos"><span>Videos</span></div>
+
+  <div id="contentPopupVideos">		
+    <div id="bodyPopupVideos" class="div-block-3">			
+      <div id="content-img-videos">
+        <a class="video" href="https://youtu.be/wEnWsV8IyaQ" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-btn-fill icon-vedeo" viewBox="0 0 16 16">
+            <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+          </svg>
+        </a>
+        <a class="video" href="https://youtu.be/wEnWsV8IyaQ" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-btn-fill icon-vedeo" viewBox="0 0 16 16">
+            <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+          </svg>
+        </a>
+      </div>
+		</div>
+  </div>  
+  <!--  END Elementos videos  -->
+
+
+  <!--  BEGIN Elementos photos  -->
+  <div id="contentTextPhotos"><span>Fotos</span></div>
+
+  <div id="contentPopupPhotos">		
+    <div id="bodyPopupPhotos" class="div-block-3">			
+      <div id="content-img-photos">
+        <a class="photo" href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/09/col-par-023.jpg" target="_blank">
+          <img class="img-photos" src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/09/col-par-023.jpg" alt="col par 023" width="50" height="50">
+        </a>
+        <a class="photo" href="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/09/col-par-023.jpg" target="_blank">
+          <img class="img-photos" src="https://virtualetex.creategicalatina.com/wp-content/uploads/2021/09/col-par-023.jpg" alt="col par 023" width="50" height="50">
+        </a>
+      </div>
+		</div>
+  </div>    
+  <!--  END Elementos photos  -->
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="M6_Better_023.js"></script>
+</body>
+</html>

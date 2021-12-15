@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- __V3D_PUZZLES__ - enable Puzzles button in the App Manager -->
+<!-- __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated -->
+<html lang="en">
+<head>
+  <title>Muro Better 012</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  <!-- Search Engines -->
+  <meta name="description" content="Muro Better 012">
+ 
+  <!-- Open Graph -- >
+  <meta property="og:title" content="Verge3D Web Interactive">
+  <meta property="og:description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the WebGL and HTML5 technologies.">
+  <meta property="og:image" content="https://cdn.soft8soft.com/images/player_socials.jpg">
+  <meta property="og:type" content="website">
+
+  <meta name="generator" content="Verge3D 3.8.0">-->
+
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+  <link rel="manifest" href="media/manifest.json">
+  <link rel="mask-icon" href="media/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+  
+  <script src="v3d.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="012Par MockUpRev.css">
+  <link rel="stylesheet" type="text/css" href="css/styles_popup.css">
+  <style>
+    @font-face {
+      font-family: GothamNarrow;
+      src: url(fonts/GothamNarrow-Book.woff);
+    }
+    body {
+      font-family: GothamNarrow;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="v3d-container">
+    <div id="fullscreen_button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
+  </div>
+
+  
+  <!-- Modal markers info -->
+  <div id="mainContent" class="main-content">
+    <div class="second-content">
+      <div class="content-header">
+        <h2 id="title" class="title-wall"></h2>
+        <div id="closePopup" class="close-popup">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="contend-body">
+        <div class="image">
+          <a id="linkInfoPDF" href="#" target="_blank">
+            <img id="imgPopup" src="" loading="lazy" width="200" alt="Imagen" class="img-placa">
+          </a>
+        </div>
+        <div class="paragraph">
+          <h3>Descripción del Producto</h3>
+          <div id="textDescription"></div>
+          <br>
+          <a id="moreInfo" class="linkpdf" href="#" target="_blank">Descargar ficha técnica</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="012Par MockUpRev.js"></script>
+</body>
+</html>

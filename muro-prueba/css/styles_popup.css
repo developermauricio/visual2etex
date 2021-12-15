@@ -1,0 +1,113 @@
+/*  Estilos popup  */
+.div-block {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 120;
+  display: none;
+  overflow: auto;
+  width: 600px;
+    height: 350px;
+  border-radius: 10px;
+  background-color: #fff;  
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.div-block-2 {
+  height: 60px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #f39500;
+  text-align: left;
+}
+
+.heading {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-left: 15px;
+  opacity: 1;
+  color: #fff;
+}
+
+.text-block {
+  position: relative;
+  top: -40px;
+  right: 1px;
+  display: inline-block;
+  padding: 10px;
+  float: right;
+  clear: none;
+  color: #fff;
+  font-size: 40px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.div-block-3 {
+  overflow: visible;
+  position: relative;
+  height: 250px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.image {
+  display: block;
+  width: 200px;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.img-placa {
+	padding-top: 30%;
+}
+
+.paragraph {
+  position: relative;
+  top: -190px;
+  display: block;
+  width: 55%;
+  margin-top: 0px;
+  padding-right: 30px;
+  padding-left: 0px;
+  float: right;
+  clear: left;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: justify;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+div.paragraph a {
+    text-decoration: none;
+    color: #dc7a03;
+    font-size: 1.2rem;
+}
+
+/* estilos fibra de vidrio */
+div#contentPopupFibra {
+    height: 300px;
+}
+
+div#bodyPopupFibra {
+    height: 220px;
+}
+#paragraphFibra {
+	top: -170px;
+}

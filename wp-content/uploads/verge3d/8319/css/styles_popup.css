@@ -1,0 +1,358 @@
+
+
+/*  Estilos popup  */
+.div-block {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  z-index: 120;
+  display: none;
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.div-block-2 {
+  height: 60px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #f39500;
+  text-align: left;
+}
+
+.heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #fff;
+}
+
+.text-block {
+  position: relative;
+  top: -40px;
+  right: 1px;
+  padding: 10px;
+  float: right;
+  color: #fff;
+  font-size: 40px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.div-block-3 {
+  width: 100%;
+  display: flex;
+  height: 220px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.image {
+  width: 45%;
+  text-align: center;
+}
+
+.img-placa {
+	padding-top: 20%;
+}
+
+.paragraph {
+  overflow: auto;
+  width: 55%;
+  padding-right: 30px;
+  text-align: justify;
+}
+
+div.paragraph h3 {
+  margin-top: 0;
+}
+
+.more-info {
+  color: #dc7a03;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
+
+/********************************************
+	Estilo para info ESPECIFICACIÓN TÉCNICA
+*********************************************/
+#content-icon-more-info {
+  position: absolute;
+  top: 6%;
+  left: 4%;
+  cursor: pointer;
+}
+.icon-more-info {
+  color: #dc7a03;
+  background: #fff;
+  padding: 2px;
+  border-radius: 14px;
+}
+.icon-more-info:hover {
+  color: #000000;
+}
+
+#contentPopupInfo {
+  position: absolute;
+  left: 4%;
+  top: 5%;
+  z-index: 10;
+  display: none;
+  width: 600px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+div#bodyPopup {
+  overflow: auto;
+  height: 74%;
+}
+
+.content-specification {
+  width: 50%;
+  padding: 0 1rem 0 1rem;
+}
+.specification-left {
+  text-align: right;
+}
+.text-title {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.color-etex {
+  color: #dc7a03;
+}
+.block {
+  display: block;
+}
+
+
+
+/********************************************
+	 Estilo para docuemntos del sistema
+*********************************************/
+div#content-icon-documents {
+  position: absolute;
+  bottom: 15%;
+  left: 3%;
+}
+
+div#contentPopupDocuments {
+  display: none;
+  position: absolute;
+  background: #fff;
+  bottom: 15%;
+  left: 3%;
+  border-radius: 8px;
+}
+p#closeDocs {
+  cursor: pointer;
+}
+p#closeDocs:hover {
+  color: #000000;
+}
+div#bodyPopupDocuments {
+  display: block;
+  height: auto;
+  text-align: center;
+}
+div#content-img-documents {
+  display: flex;
+}
+.content-docs {
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+img.img-docs {
+  width: 30px;
+  height: 30px;
+}
+span.span-docs {
+  display: block;
+  font-size: 0.8rem;
+}
+span.span-docs.color-etex:hover {
+  color: #000;
+}
+
+
+/********************************************
+	 Estilo para las imagenes de las marcas
+*********************************************/
+div#content-text-brand {
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 0.3rem 0.6rem;
+}
+div#content-text-brand:hover {
+  color: #dc7a03;
+}
+
+div#contentPopupBrand {
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
+  z-index: 10;
+  border-radius: 10px;
+  background-color: transparent;
+}
+div#bodyPopupBrand {
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+img.img-brand {
+  width: 100px;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+
+/***************************
+	Estilo para los videos
+****************************/
+div#contentTextVideos {
+  position: absolute;
+  bottom: 40%;
+  right: 4%;
+  background-color: #ffffff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+div#contentTextVideos:hover {
+  color: #dc7a03;
+}
+
+div#contentPopupVideos {
+  position: absolute;
+  right: 4%;
+  bottom: 29%;
+}
+div#bodyPopupVideos {
+  display: block;
+  height: auto;
+}
+div#content-img-videos {
+  display: flex;
+}
+svg.bi.bi-play-btn-fill.icon-vedeo {
+  width: 50px;
+  height: 50px;
+  color: #dc7a03;
+  padding: 0.5rem;
+}
+svg.bi.bi-play-btn-fill.icon-vedeo:hover {
+  color: #000000;
+}
+
+
+/***************************
+	Estilo para las fotos
+****************************/
+div#contentTextPhotos {
+  position: absolute;
+  bottom: 22%;
+  right: 4%;
+  background-color: #ffffff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+div#contentTextPhotos:hover {
+  color: #dc7a03;
+}
+
+div#contentPopupPhotos {
+  position: absolute;
+  right: 4%;
+  bottom: 10%;
+}
+div#bodyPopupPhotos {
+  display: block;
+  height: auto;
+}
+div#content-img-photos {
+  display: flex;
+}
+img.img-photos {
+  padding: 0.5rem;
+}
+
+
+
+
+/*************************
+	Estilo para movil  
+**************************/
+@media (max-width: 767.98px) { 
+	.div-block {
+		top: 8%;
+		left: 5%;
+		width: 90%;
+		height: 400px !important;
+	}
+	.heading {
+		font-size: 1.2rem;
+		padding-right: 3rem;
+	}
+	.text-block {
+		position: absolute;
+		top: 2px;
+	}
+	
+	.div-block-3 {
+		height: 90% !important;
+    display: block;
+	}
+	.image {
+		width: 90%;
+		text-align: center;
+	}
+	.img-placa {
+		padding: 5%;
+		width: 250px;
+	}
+	
+	.paragraph {
+		width: 90%;
+		padding-right: 30px;
+		padding-left: 30px;
+		padding-bottom: 1.5rem;
+	}
+}
+
+
+
+/*************************
+	Estilo para table  
+**************************/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.div-block {
+		left: 15vh;
+	}
+ }
+ 
+ 
+ 
+ /***************************************
+	Estilo para pantallas grandes  
+*****************************************/
+ /*@media (min-width: 1200px) {  }*/
+
+
+
+
+
