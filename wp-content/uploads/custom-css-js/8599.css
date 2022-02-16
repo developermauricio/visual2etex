@@ -1,5 +1,21 @@
 <!-- start Simple Custom CSS and JS -->
 <style type="text/css">
+/*** cuenta regresiva  ****/
+div#contentMyCountdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#myCountdown {
+    margin-right: 17vh;
+    margin-top: 2vh;
+}
+div.styles-my-countdown {
+    font-size: 3vh;
+    color: black;
+    font-weight: 600;
+}
+
 /***  estilos navbar  ***/
 .proximamente {
   	width: 100%;
@@ -12,10 +28,15 @@
 }
 
 .whb-row.whb-general-header.whb-sticky-row.whb-without-bg.whb-without-border.whb-color-light.whb-flex-flex-middle {
-    background: #00000029;
+    background: #00000069;
 }
 .whb-sticked .whb-row.whb-general-header.whb-sticky-row.whb-without-bg.whb-without-border.whb-color-light.whb-flex-flex-middle {
     background: #565655f5;
+}
+
+div#contentMantenance {
+    background-image: url(https://visual2etex.com/wp-content/uploads/2022/01/background-countdown.jpg);
+    background-size: 100% 100% !important;
 }
 
 /*.main-page-wrapper {
@@ -26,6 +47,9 @@
 
 div#spacing-page-contact {
     height: 5.5rem !important;
+}
+.info-icon-brand img {
+    width: 260px;
 }
 
 
@@ -198,6 +222,31 @@ iframe.modal-model-3d {
     text-align: justify;
 }
 
+.contenct-product-for-brand {
+    padding: 1rem 2rem;
+}
+.style-cursor-pointer {
+  cursor: pointer;
+}
+
+/*************************
+	Estilos page products
+**************************/
+.item-brands {
+    padding: 0 1rem;
+}
+.item-brands img.info-icon {
+    max-height: 90px;
+    object-fit: contain;
+}
+.item-brands .info-box-content {
+    text-align: justify;
+    margin-top: 1rem;
+}
+.item-brand-promat img.info-icon {
+    max-height: 70px;
+}
+
 
 
 /*************************
@@ -270,6 +319,15 @@ iframe.modal-model-3d {
   }
   iframe.modal-model-3d {
     height: 80vh;
+  }
+  .item-brands {
+    padding: 0;
+  }
+  rs-bullets.tp-bullets.metis.vertical.nav-pos-hor-right.nav-pos-ver-center.nav-dir-vertical.noSwipe {
+    display: none;
+  }
+  div#contentMantenance {
+    background-size: cover !important;
   }
   
 }
