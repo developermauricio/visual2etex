@@ -237,13 +237,13 @@ function runCode(app) {
     const titlePlaca = 'Paredes Interiores';
     const urlPlacaPDF = '/wp-content/uploads/2021/10/FT-PAREDES-INTERIORES.pdf';
     const imgPlaca = '/wp-content/uploads/2021/10/paredes-interiores.png';
-    const textPlaca= `Placa de cemento resistente a la humedad y el impacto para la elaboración de paredes interiores con mayor rapidez constructiva, poco peso y limpieza en la obra.`;
+    const textPlaca= `Placa de cemento resistente a la humedad y el impacto para la elaboración de paredes interiores con más rapidez constructiva, poco peso y mucha limpieza en la obra.`;
     
     /***  placa humedad ***/
     const titlePlacaHumedad = 'PLACA RH Resistente a la humedad';
     const urlPlacaPDFHumedad = '/wp-content/uploads/2021/10/FT-Gyplac-Placa-Resistente-a-la-humedad.pdf';
     const imgPlacaHumedad = '/wp-content/uploads/2021/10/placa-humedad.jpg';
-    const textPlacaHumedad = `Utilizada en la ejecución de paredes, cielos rasos y revestimientos de muros interiores en áreas húmedas en todo tipo de construcciones.`;
+    const textPlacaHumedad = `Utilizada en ejecución de paredes, cielos rasos y revestimientos de muros interiores, en áreas húmedas en todo tipo de construcciones.`;
 
     /***  Fibra de vidrio  ***/
     const titleFibra = 'Lana de fibra de Vidrio';
@@ -256,13 +256,15 @@ function runCode(app) {
     const titleMasillaPasta = 'Masilla en Pasta';
     const urlMasillaPastaPDF = '/wp-content/uploads/2021/10/FT-Gyplac-Masilla-en-Pasta-.pdf';
     const imgMasillaPasta = '/wp-content/uploads/2021/10/masilla-pasta.png';
-    const textMasillaPasta = `Masilla lista para usar, especialmente formulada para realizar uniones de placas de yeso, ideal para terminaciones en muros, cielos rasos y revestimientos.`;
+    const textMasillaPasta = `Masilla lista para usar, creada y formulada para realizar uniones de placas de yeso, ideal para terminaciones en muros, cielos rasos y revestimientos.`;
 
     /***  Masilla en Polvo  ***/
     const titleMasillaPolvo = 'Masilla en Polvo';
     const urlMasillaPolvoPDF = '/wp-content/uploads/2021/10/FT-Gyplac-Masilla-en-Polvo.pdf';
     const imgMasillaPolvo = '/wp-content/uploads/2021/10/masilla-polvo.png';
-    const textMasillaPolvo = `Masilla en polvo de secado rápido recomendada para el tratamiento de juntas en placas de yeso Gyplac®. Excelente adherencia y óptima trabajabilidad. Su tiempo de fraguado es de 120 minutos.`;
+    const textMasillaPolvo = `Masilla en polvo de secado rápido para el
+    tratamiento de juntas en placas de yeso Gyplac®. 
+    Excelente adherencia y óptima trabajabilidad. Tiempo de fraguado es de 120 minutos.`;
 
 
 

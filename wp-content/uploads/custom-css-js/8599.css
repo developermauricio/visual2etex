@@ -249,6 +249,17 @@ iframe.modal-model-3d {
 
 
 
+a.btn.btn-scheme-light.btn-scheme-hover-light.btn-style-3d.btn-shape-round.btn-size-default.wd-open-popup {
+    position: fixed;
+    bottom: 90px;
+    right: 10px;
+}
+.content-video-recorrido {
+    margin: -28px;
+}
+
+
+
 /*************************
 	Estilos for movil  
 **************************/

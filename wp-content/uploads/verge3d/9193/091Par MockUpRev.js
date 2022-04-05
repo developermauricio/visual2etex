@@ -236,20 +236,15 @@ function runCode(app) {
     const titlePlaca = 'Superboard Enchape Interiores';
     const urlPlacaPDF = '/wp-content/uploads/2021/10/FT-BASE-ENCHAPE-INTERIORES.pdf';
     const imgPlaca = '/wp-content/uploads/2021/11/superboard-enchape.png';
-    const textPlaca = `Superboard® Enchape interiores de 8mm, es una placa
-    de cemento con textura tipo retícula en bajo relieve que
-    garantiza una óptima adherencia de cerámicos, piedras
-    naturales, enchapes de arcilla, entre otros. en zonas
+    const textPlaca = `Superboard ® Enchape interiores de 8mm. Placa de cemento con textura tipo retícula en bajo relieve, óptima adherencia de cerámicos, piedras naturales, enchapes de arcilla, etc incluso en zonas
     interiores expuestas a agua directa.
-    Placa resistente a la humedad y el impacto que permite
-    gran variedad de aplicaciones en zonas húmedas con mayor
-    rapidez constructiva, poco peso y limpieza en la obra.`;
+    Resistente humedad e impactos para una gran variedad de aplicaciones en zonas húmedas con más rapidez constructiva, poco peso y mayor limpieza en la obra.`;
 
     /***  placa paredes interiores ***/
     const titlePlacaParedes = 'Paredes Interiores';
     const urlPlacaParedesPDF = '/wp-content/uploads/2021/10/FT-PAREDES-INTERIORES.pdf';
     const imgPlacaParedes = '/wp-content/uploads/2021/10/paredes-interiores.png';
-    const textPlacaParedes= `Placa de cemento resistente a la humedad y el impacto para la elaboración de paredes interiores con mayor rapidez constructiva, poco peso y limpieza en la obra.`;
+    const textPlacaParedes= `Placa de cemento resistente a la humedad y el impacto para la elaboración de paredes interiores con más rapidez constructiva, poco peso y mucha limpieza en la obra.`;
     
 
     /***  Fibra de vidrio  ***/
@@ -263,17 +258,13 @@ function runCode(app) {
     const titleMasillaPasta = 'Masilla en Pasta';
     const urlMasillaPastaPDF = '/wp-content/uploads/2021/10/FT-Gyplac-Masilla-en-Pasta-.pdf';
     const imgMasillaPasta = '/wp-content/uploads/2021/10/masilla-pasta.png';
-    const textMasillaPasta = `Masilla lista para usar, especialmente formulada para realizar uniones de placas de yeso, ideal para terminaciones en muros, cielos rasos y revestimientos.`;
+    const textMasillaPasta = `Masilla lista para usar, creada y formulada para realizar uniones de placas de yeso, ideal para terminaciones en muros, cielos rasos y revestimientos.`;
 
     /***  Masilla juntas invisibles  ***/
     const titleMasillaFlexible = 'Masilla Flexible JUNTAS INVISIBLES Exterior e interior';
     const urlMasillaFlexiblePDF = '/wp-content/uploads/2021/11/FT-Superboard-A-Juntas-Invisibles.pdf';
     const imgMasillaFlexible = '/wp-content/uploads/2021/11/juntas-invisibles.jpg';
-    const textMasillaFlexible = `Masilla flexible lista para usar de consistencia cremosa,
-    desarrollada para el tratamiento de juntas Invisibles,
-    continuas o perdidas en aplicaciones interiores y exteriores
-    de sistemas de Construcción en Seco con placas planas de
-    cemento Superboard®.`;
+    const textMasillaFlexible = `Masilla flexible de consistencia cremosa lista para usar, ideal para el tratamiento de juntas invisibles, continuas o perdidas en aplicaciones interiores y exteriores de sistemas de Construcción en Seco con placas planas de cemento Superboard ®. Es componente del Sistema de Tratamiento de Juntas Superboard ®.`;
 
 
     /***  Funtions  ***/       

@@ -234,7 +234,7 @@ function runCode(app) {
     const titlePlaca = 'PLACA RH Resistente a la humedad';
     const urlPlacaPDF = '/wp-content/uploads/2021/10/FT-Gyplac-Placa-Resistente-a-la-humedad.pdf';
     const imgPlaca = '/wp-content/uploads/2021/10/placa-humedad.jpg';
-    const textPlaca = `Utilizada en la ejecución de paredes, cielos rasos y revestimientos de muros interiores en áreas húmedas en todo tipo de construcciones.`;
+    const textPlaca = `Utilizada en ejecución de paredes, cielos rasos y revestimientos de muros interiores, en áreas húmedas en todo tipo de construcciones.`;
 
     /***  Fibra de vidrio  ***/
     const titleFibra = 'Lana de fibra de Vidrio';
@@ -250,13 +250,15 @@ function runCode(app) {
     const titleMasillaPolvo = 'Masilla en Polvo';
     const urlMasillaPolvoPDF = '/wp-content/uploads/2021/10/FT-Gyplac-Masilla-en-Polvo.pdf';
     const imgMasillaPolvo = '/wp-content/uploads/2021/10/masilla-polvo.png';
-    const textMasillaPolvo = `Masilla en polvo de secado rápido recomendada para el tratamiento de juntas en placas de yeso Gyplac®. Excelente adherencia y óptima trabajabilidad. Su tiempo de fraguado es de 120 minutos.`;
+    const textMasillaPolvo = `Masilla en polvo de secado rápido para el
+    tratamiento de juntas en placas de yeso Gyplac®. 
+    Excelente adherencia y óptima trabajabilidad. Tiempo de fraguado es de 120 minutos.`;
 
     /***  Masilla en Pasta  ***/
     const titleMasillaPasta = 'Masilla en Pasta';
     const urlMasillaPastaPDF = '/wp-content/uploads/2021/10/FT-Gyplac-Masilla-en-Pasta-.pdf';
     const imgMasillaPasta = '/wp-content/uploads/2021/10/masilla-pasta.png';
-    const textMasillaPasta = `Masilla lista para usar, especialmente formulada para realizar uniones de placas de yeso, ideal para terminaciones en muros, cielos rasos y revestimientos.`;
+    const textMasillaPasta = `Masilla lista para usar, creada y formulada para realizar uniones de placas de yeso, ideal para terminaciones en muros, cielos rasos y revestimientos.`;
 
 
     /***  Funtions  ***/    

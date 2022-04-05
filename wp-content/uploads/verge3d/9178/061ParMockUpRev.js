@@ -235,13 +235,7 @@ function runCode(app) {
     const titlePlaca = 'PLACA EXTRADURA Resistente a Impactos';
     const urlPlacaPDF = '/wp-content/uploads/2021/10/FT-Gyplac-Placa-Extradura.pdf';
     const imgPlaca = '/wp-content/uploads/2021/11/placa-extradura.jpg';
-    const textPlaca = `Placa compuesta por un núcleo de roca de yeso de alta
-    densidad, aditivos especiales y fibras de alto desempeño.
-    Las caras de las placas son revestidas con un papel de
-    celulosa gruesa de alto gramaje que en conjunto forman una
-    placa con excelente desempeño frente al abuso: Abrasión,
-    hendiduras e impactos duros y blandos. Estas son fabricadas
-    cumpliendo las especificaciones descritas en la norma ASTM
+    const textPlaca = `Placa compuesta por un núcleo de roca de yeso de alta densidad, aditivos especiales y fibras de alto desempeño, caras revestidas con papel de celulosa gruesa de alto gramaje que logran un excelente desempeño frente a la Abrasión, hendiduras e impactos duros y blandos. Son fabricadas cumpliendo especificaciones descritas en normas ASTM
     E 695, ASTM C 1629, ASTM D 4977, ASTM D 5420.`;
 
     /***  Fibra de vidrio  ***/
@@ -258,13 +252,15 @@ function runCode(app) {
     const titleMasillaPolvo = 'Masilla en Polvo';
     const urlMasillaPolvoPDF = '/wp-content/uploads/2021/10/FT-Gyplac-Masilla-en-Polvo.pdf';
     const imgMasillaPolvo = '/wp-content/uploads/2021/10/masilla-polvo.png';
-    const textMasillaPolvo = `Masilla en polvo de secado rápido recomendada para el tratamiento de juntas en placas de yeso Gyplac®. Excelente adherencia y óptima trabajabilidad. Su tiempo de fraguado es de 120 minutos.`;
+    const textMasillaPolvo = `Masilla en polvo de secado rápido para el
+    tratamiento de juntas en placas de yeso Gyplac®. 
+    Excelente adherencia y óptima trabajabilidad. Tiempo de fraguado es de 120 minutos.`;
 
     /***  Masilla en Pasta  ***/
     const titleMasillaPasta = 'Masilla en Pasta';
     const urlMasillaPastaPDF = '/wp-content/uploads/2021/10/FT-Gyplac-Masilla-en-Pasta-.pdf';
     const imgMasillaPasta = '/wp-content/uploads/2021/10/masilla-pasta.png';
-    const textMasillaPasta = `Masilla lista para usar, especialmente formulada para realizar uniones de placas de yeso, ideal para terminaciones en muros, cielos rasos y revestimientos.`;
+    const textMasillaPasta = `Masilla lista para usar, creada y formulada para realizar uniones de placas de yeso, ideal para terminaciones en muros, cielos rasos y revestimientos.`;
 
 
     /***  Funtions  ***/       

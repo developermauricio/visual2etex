@@ -235,7 +235,7 @@ function runCode(app) {
     const titlePlaca = 'PLACA RF Resistente al fuego';
     const urlPlacaPDF = '/wp-content/uploads/2021/10/FT-Gyplac-Placa-Resistente-al-Fuego.pdf';
     const imgPlaca = '/wp-content/uploads/2021/10/placa-fuego.jpg';
-    const textPlaca = `Placa  especialmente diseñada para la protección ante la acción del fuego en todo tipo de construcciones, nuevas o de remodelación.`;
+    const textPlaca = `Placa de yeso diseñada para protección ante el fuego en todo tipo de construcciones, nuevas o de remodelación.`;
 
     /***  Fibra de vidrio  ***/
     const titleFibra = 'Lana de fibra de Vidrio';
@@ -251,13 +251,15 @@ function runCode(app) {
     const titleMasillaPolvo = 'Masilla en Polvo';
     const urlMasillaPolvoPDF = '/wp-content/uploads/2021/10/FT-Gyplac-Masilla-en-Polvo.pdf';
     const imgMasillaPolvo = '/wp-content/uploads/2021/10/masilla-polvo.png';
-    const textMasillaPolvo = `Masilla en polvo de secado rápido recomendada para el tratamiento de juntas en placas de yeso Gyplac®. Excelente adherencia y óptima trabajabilidad. Su tiempo de fraguado es de 120 minutos.`;
+    const textMasillaPolvo = `Masilla en polvo de secado rápido para el
+    tratamiento de juntas en placas de yeso Gyplac®. 
+    Excelente adherencia y óptima trabajabilidad. Tiempo de fraguado es de 120 minutos.`;
 
     /***  Masilla en Pasta  ***/
     const titleMasillaPasta = 'Masilla en Pasta';
     const urlMasillaPastaPDF = '/wp-content/uploads/2021/10/FT-Gyplac-Masilla-en-Pasta-.pdf';
     const imgMasillaPasta = '/wp-content/uploads/2021/10/masilla-pasta.png';
-    const textMasillaPasta = `Masilla lista para usar, especialmente formulada para realizar uniones de placas de yeso, ideal para terminaciones en muros, cielos rasos y revestimientos.`;
+    const textMasillaPasta = `Masilla lista para usar, creada y formulada para realizar uniones de placas de yeso, ideal para terminaciones en muros, cielos rasos y revestimientos.`;
 
 
     /***  Funtions  ***/       
